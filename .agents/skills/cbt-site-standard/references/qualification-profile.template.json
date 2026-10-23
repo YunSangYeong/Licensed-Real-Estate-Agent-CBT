@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "standard": {
+    "name": "cbt-site-standard",
+    "version": "1.4.0",
+    "referenceRepository": "YunSangYeong/electrician-cbt",
+    "referenceCommit": "b9a682ccff1b460334b78d5bfad9375b7ec4fbb6"
+  },
+  "qualification": {
+    "name": null,
+    "slug": null,
+    "officialIssuer": null,
+    "rulesVerificationStatus": "pending",
+    "officialSources": [],
+    "verifiedAt": null
+  },
+  "exam": {
+    "questionCount": null,
+    "durationMinutes": null,
+    "choiceCount": null,
+    "subjects": [],
+    "selectionPolicy": null,
+    "scoring": {
+      "maxScore": null,
+      "passScore": null,
+      "hasSubjectCutoff": null,
+      "subjectCutoffs": [],
+      "unansweredPolicy": null
+    }
+  },
+  "questionBank": {
+    "defaultBankId": "main",
+    "targetReviewedCount": 1000,
+    "importedDefaultStatus": "pending",
+    "types": [
+      "past",
+      "reconstructed",
+      "original"
+    ],
+    "allowNumericVariants": null,
+    "reportVariantFamiliesAndCounts": true
+  },
+  "ui": {
+    "locale": "ko-KR",
+    "showStudyCriteriaSelector": false,
+    "showBankYearRange": false,
+    "nextQuestionShortcut": "Space",
+    "shortcutModes": [
+      "exam",
+      "practice"
+    ],
+    "requireAnswerBeforeGlobalShortcut": true,
+    "autoSubmitLastQuestionOnSpace": false,
+    "officialBranding": false,
+    "showTopDisclaimerBanner": false,
+    "disclosureLocations": [
+      "footer-or-sidebar",
+      "question-bank-or-source-details",
+      "documentation"
+    ],
+    "showActionableStorageErrors": true,
+    "mobileMenuScrollable": true,
+    "mobileMenuSmallHeightRegressionRequired": true,
+    "mobileMenuTouchScrollVerificationRequired": true
+  },
+  "storage": {
+    "namespace": null,
+    "schemaVersion": 1,
+    "maxAttempts": 5000,
+    "maxExamResults": 30
+  },
+  "deployment": {
+    "provider": "github-pages",
+    "repository": null,
+    "branch": "main",
+    "basePath": null,
+    "publicUrl": null,
+    "blogIframe": true,
+    "executedBy": "agent-when-authorized",
+    "trigger": "push-main-after-validation",
+    "automaticDeploymentOnPush": true,
+    "agentMayExecuteDeployment": true,
+    "requiresUserDeploymentRequest": true,
+    "maxDeploymentAttempts": 1,
+    "stopOnFirstBlock": true,
+    "userRole": "initial-settings-or-required-approval-only",
+    "explicitUserRestrictionsTakePrecedence": true
+  }
+}
