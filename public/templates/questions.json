@@ -1,0 +1,36 @@
+[
+  {
+    "id": "LOCAL-EXAMPLE",
+    "subject": "부동산학개론",
+    "topic": "부동산 수리·capitalization",
+    "question": "연간 순영업소득 120만원, 환원율 5%이다. 소득이 영구히 일정할 때 직접환원법에 따른 가치는?",
+    "choices": [
+      "2,400만원",
+      "2,410만원",
+      "2,420만원",
+      "2,430만원",
+      "2,440만원"
+    ],
+    "answer": 1,
+    "explanation": "가치 = 순영업소득 ÷ 환원율 = 120 ÷ 0.05 = 2400만원.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Licensed-Real-Estate-Agent-CBT",
+    "verificationStatus": "pending",
+    "reviewNote": "양식 예시. 출처·이용 조건·정답 확인 후 로컬 승인하세요.",
+    "version": "main",
+    "rights": "자체 작성 CC BY 4.0; 표시: Licensed-Real-Estate-Agent-CBT contributors. 외부 기출 없음.",
+    "family": "REA-capitalization",
+    "calculation": {
+      "kind": "capitalization",
+      "values": [
+        120,
+        5
+      ],
+      "result": 2400,
+      "unit": "만원"
+    }
+  }
+]
